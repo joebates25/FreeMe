@@ -1,0 +1,16 @@
+# Secrets
+.dev.vars
+
+# Dependencies
+node_modules/
+
+# Wrangler
+.wrangler/
+
+# OS files
+.DS_Store
+
+# Editor
+*.swp
+.idea/
+.vscode/

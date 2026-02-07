@@ -1,0 +1,12 @@
+name = "twilio-call-scheduler"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[durable_objects]
+bindings = [
+  { name = "CALL_SCHEDULER", class_name = "CallScheduler" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CallScheduler"]
